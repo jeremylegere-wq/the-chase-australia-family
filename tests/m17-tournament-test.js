@@ -1,0 +1,25 @@
+const fs=require("fs"),vm=require("vm"),assert=require("assert"),path=require("path");
+const root=process.argv[2]||".",store={};const document={getElementById:()=>null,addEventListener:()=>{}};
+const context={window:{},document,localStorage:{getItem:k=>store[k]||null,setItem:(k,v)=>store[k]=v},Date,Math,console};context.window.window=context.window;
+vm.runInNewContext(fs.readFileSync(path.join(root,"js/tournaments.js"),"utf8"),context);
+const api=context.window.ChaseTournaments;
+const t=api.create("Test Cup",["Ada","Ben","Casey","Drew"]);
+assert.strictEqual(t.rounds.length,3);assert.strictEqual(t.rounds.flat().length,6);
+assert.strictEqual(new Set(t.rounds.flat().map(g=>[g.home,g.away].sort().join("|"))).size,6);
+for(const g of t.rounds.flat())api.record(t.id,g.id,g.home,"league");
+const persistedLeague=JSON.parse(store["the-chase-australia-family.tournaments.v1"]).tournaments[0];const table=api.standings(persistedLeague);assert.strictEqual(table.reduce((n,r)=>n+r.played,0),12);assert.strictEqual(table.reduce((n,r)=>n+r.points,0),18);
+const saved=JSON.parse(store["the-chase-australia-family.tournaments.v1"]);const tournament=saved.tournaments[0];
+assert.strictEqual(api.startPlayoffs(tournament),true);assert.strictEqual(tournament.playoffs.length,2);store["the-chase-australia-family.tournaments.v1"]=JSON.stringify(saved);
+for(const g of tournament.playoffs)api.record(t.id,g.id,g.home,"playoff");
+const after=JSON.parse(store["the-chase-australia-family.tournaments.v1"]).tournaments[0];
+assert.strictEqual(after.playoffs.length,1);assert.strictEqual(after.playoffs[0].stage,"Championship Final");
+api.record(t.id,after.playoffs[0].id,after.playoffs[0].home,"playoff");
+const completed=JSON.parse(store["the-chase-australia-family.tournaments.v1"]).tournaments[0];
+assert.strictEqual(completed.status,"completed");assert.ok(completed.champion);
+console.log("M17 tournament tests passed.");
+
+const three=api.create("Three-player Cup",["Eve","Finn","Gia"]);
+assert.strictEqual(three.rounds.flat().length,3);
+for(const g of three.rounds.flat())api.record(three.id,g.id,g.home,"league");
+const threeSaved=JSON.parse(store["the-chase-australia-family.tournaments.v1"]).tournaments.find(x=>x.id===three.id);
+assert.strictEqual(api.startPlayoffs(threeSaved),true);assert.strictEqual(threeSaved.playoffs.length,1);assert.strictEqual(threeSaved.playoffs[0].stage,"Championship Final");

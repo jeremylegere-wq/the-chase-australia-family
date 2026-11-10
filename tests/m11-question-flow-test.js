@@ -1,0 +1,32 @@
+/* M11/M17.2: unique question cycles and one shared question per Head-to-Head turn. */
+"use strict";
+const fs=require("fs"),vm=require("vm"),path=require("path"),assert=require("assert");
+const root=path.resolve(process.argv[2]||".");
+const app=fs.readFileSync(path.join(root,"js/app.js"),"utf8");
+const start=app.indexOf("  function shuffleInPlace(items)");
+const end=app.indexOf("  function renderBanks()",start);
+if(start<0||end<0) throw new Error("Could not locate question deck implementation.");
+const source=app.slice(start,end)+"\nglobalThis.deckApi={createQuestionDeck,ensureQuestionDeck,selectQuestionIds};";
+const bank=Array.from({length:40},(_,i)=>({id:"F"+(i+1),difficulty:"family",category:["Australia","Animals","Science","Geography"][i%4],question:"Unique family question "+(i+1),tags:[]}));
+bank[38].question=bank[37].question;
+const currentMatch={difficulty:"family",categories:"mixed"};
+const context={bank,currentMatch};vm.createContext(context);vm.runInContext(source,context);
+const {createQuestionDeck,ensureQuestionDeck,selectQuestionIds}=context.deckApi;
+createQuestionDeck();
+assert.equal(currentMatch.questionDeck.poolIds.length,39,"Duplicate prompt text must be removed from the deck.");
+const cashBuilder=selectQuestionIds(20);
+const headToHead=Array.from({length:12},()=>selectQuestionIds(1)[0]);
+const finalChase=selectQuestionIds(30);
+const firstCycle=[...cashBuilder,...headToHead,...finalChase].slice(0,39);
+assert.equal(new Set(firstCycle).size,firstCycle.length,"The first complete question cycle must not repeat questions across rounds.");
+for(const [label,ids] of [["Cash Builder",cashBuilder],["Head-to-Head shared question set",headToHead],["Final Chase",finalChase]]) assert.equal(new Set(ids).size,ids.length,label+" contains a repeated question ID.");
+assert.equal(headToHead.length,12,"Head-to-Head draws one shared question for each turn, not separate contestant and Chaser sets.");
+assert.equal(finalChase.slice(0,15).filter(id=>finalChase.slice(15).includes(id)).length,0,"Final Chase contestant and Chaser pools must remain disjoint.");
+// Simulate an older saved deck that contains duplicate IDs/prompts and has no cycleUsedIds.
+currentMatch.questionDeck={poolIds:["F1","F2","F2","F39","F40"],remainingIds:["F2","F39","F40"],usedIds:["F1"]};
+ensureQuestionDeck();
+assert.equal(new Set(currentMatch.questionDeck.poolIds).size,currentMatch.questionDeck.poolIds.length,"Legacy saved deck must be normalised to unique IDs/prompts.");
+assert.equal(currentMatch.questionDeck.cycleUsedIds.includes("F1"),true,"Legacy deck must reconstruct consumed questions for the current cycle.");
+const boundary=selectQuestionIds(39);
+assert.equal(new Set(boundary).size,boundary.length,"A request crossing a cycle boundary must not duplicate within the allocation.");
+console.log("Question deck passed: unique prompts, cross-round no-repeat, legacy-save repair, cycle-boundary safety, shared Head-to-Head set and separate Final Chase sets.");

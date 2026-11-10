@@ -1,0 +1,29 @@
+THE CHASE AUSTRALIA: FAMILY EDITION — DESKTOP SHORTCUTS
+
+WINDOWS 10 / 11
+1. Extract the complete ZIP to a permanent folder (for example, Documents\Games\The Chase Australia).
+2. Open the extracted folder.
+3. Right-click create-shortcut-windows.ps1 and choose "Run with PowerShell".
+   If Windows blocks the script, open PowerShell in this folder and run:
+     powershell -ExecutionPolicy Bypass -File .\create-shortcut-windows.ps1
+4. A "The Chase Australia - Family Edition" shortcut will appear on your Desktop.
+5. Double-click it to launch the game in your default browser.
+
+You can also double-click launch-game-windows.bat to play without creating a shortcut.
+
+LINUX (UBUNTU / FEDORA / MINT / OTHER DESKTOPS)
+1. Extract the complete ZIP to a permanent folder.
+2. Open a terminal in the extracted folder.
+3. Run:
+     chmod +x launch-game-linux.sh create-shortcut-linux.sh
+     ./create-shortcut-linux.sh
+4. A game shortcut will be created on your Desktop (or in your home folder if no Desktop folder exists).
+5. If your desktop environment asks, choose "Allow Launching" or "Trust and Launch".
+
+You can also double-click launch-game-linux.sh (or run it from a terminal) to play without creating a shortcut.
+
+IMPORTANT
+- Keep the extracted game folder in place after creating the shortcut. The shortcut points to that folder.
+- Do not run the game directly from inside the ZIP.
+- The game opens index.html in your default browser and works offline.
+- No installer, server, Node.js, or internet connection is required to play.

@@ -1,0 +1,10 @@
+{
+  "name": "the-chase-australia-family-edition",
+  "version": "1.7.3",
+  "private": true,
+  "scripts": {
+    "test": "node tests/question-bank-test.js . && node tests/m11-question-flow-test.js . && node tests/head-to-head-shared-question-test.js . && node tests/m12-presentation-test.js . && node tests/engine-regression-test.js . && node tests/release-check.js . && node tests/m13-cinematic-test.js . && node tests/m14-studio-test.js . && node tests/m15-narrative-test.js . && node tests/m16-records-test.js . && node tests/m17-tournament-test.js . && node tests/privacy-release-test.js ."
+  },
+  "description": "An offline-first family quiz game for the browser.",
+  "license": "MIT"
+}

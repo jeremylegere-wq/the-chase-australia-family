@@ -1,0 +1,2003 @@
+{
+  "version": 2,
+  "language": "en-AU",
+  "questions": [
+    {
+      "id": "J001",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "What is a baby kangaroo called?",
+      "answers": [
+        "Joey",
+        "Calf",
+        "Cub",
+        "Kitten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A baby kangaroo is called a joey.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J002",
+      "category": "Australia",
+      "difficulty": "junior",
+      "question": "What is the capital city of Australia?",
+      "answers": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Brisbane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Canberra is Australia's capital.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J003",
+      "category": "Science",
+      "difficulty": "junior",
+      "question": "Which planet do we live on?",
+      "answers": [
+        "Mars",
+        "Venus",
+        "Earth",
+        "Jupiter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Earth is the planet we call home.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J004",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "Which animal is famous for carrying its baby in a pouch?",
+      "answers": [
+        "Koala",
+        "Dolphin",
+        "Penguin",
+        "Crocodile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Koalas are marsupials and carry young in a pouch.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J005",
+      "category": "Sport",
+      "difficulty": "junior",
+      "question": "How many players from one team are on the field in an Australian rules football match?",
+      "answers": [
+        "10",
+        "16",
+        "18",
+        "22"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An AFL team has 18 players on the field.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J006",
+      "category": "Nature",
+      "difficulty": "junior",
+      "question": "What do bees make from flower nectar?",
+      "answers": [
+        "Milk",
+        "Honey",
+        "Bread",
+        "Juice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bees make honey from nectar.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J007",
+      "category": "Maths",
+      "difficulty": "junior",
+      "question": "What is 8 multiplied by 5?",
+      "answers": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "correctAnswer": 1,
+      "explanation": "8 × 5 = 40.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J008",
+      "category": "Geography",
+      "difficulty": "junior",
+      "question": "Which ocean is off the east coast of Australia?",
+      "answers": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Pacific Ocean is off Australia's east coast.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J009",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "What is the largest animal on Earth?",
+      "answers": [
+        "African elephant",
+        "Blue whale",
+        "Giraffe",
+        "Great white shark"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The blue whale is the largest known animal.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J010",
+      "category": "Science",
+      "difficulty": "junior",
+      "question": "What do plants absorb from the Sun to help them grow?",
+      "answers": [
+        "Sunlight",
+        "Sound",
+        "Sand",
+        "Smoke"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Plants use sunlight for photosynthesis.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J011",
+      "category": "Sport",
+      "difficulty": "junior",
+      "question": "In cricket, what is the name of the object the bowler throws?",
+      "answers": [
+        "Puck",
+        "Ball",
+        "Shuttlecock",
+        "Disc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The bowler delivers the cricket ball.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J012",
+      "category": "Australia",
+      "difficulty": "junior",
+      "question": "Which Australian state is Brisbane the capital of?",
+      "answers": [
+        "Queensland",
+        "Victoria",
+        "Tasmania",
+        "South Australia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brisbane is the capital of Queensland.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J013",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "How many legs does a spider have?",
+      "answers": [
+        "Six",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spiders have eight legs.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J014",
+      "category": "Space",
+      "difficulty": "junior",
+      "question": "What is the name of Earth's natural satellite?",
+      "answers": [
+        "The Sun",
+        "Mars",
+        "The Moon",
+        "Venus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Moon orbits Earth.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J015",
+      "category": "Food",
+      "difficulty": "junior",
+      "question": "Which fruit is traditionally used to make raisins?",
+      "answers": [
+        "Apple",
+        "Grape",
+        "Banana",
+        "Pear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Raisins are dried grapes.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J016",
+      "category": "Geography",
+      "difficulty": "junior",
+      "question": "Which direction does the Sun appear to rise?",
+      "answers": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Sun appears to rise in the east.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J017",
+      "category": "Sport",
+      "difficulty": "junior",
+      "question": "How many points is a goal worth in Australian rules football?",
+      "answers": [
+        "One",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 3,
+      "explanation": "An AFL goal is worth six points.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J018",
+      "category": "Science",
+      "difficulty": "junior",
+      "question": "What do we call water when it freezes?",
+      "answers": [
+        "Steam",
+        "Ice",
+        "Cloud",
+        "Rain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frozen water is ice.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J019",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "Which bird cannot fly and is native to Australia?",
+      "answers": [
+        "Emu",
+        "Eagle",
+        "Cockatoo",
+        "Kookaburra"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The emu is a large flightless Australian bird.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J020",
+      "category": "Maths",
+      "difficulty": "junior",
+      "question": "How many sides does a hexagon have?",
+      "answers": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A hexagon has six sides.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "F001",
+      "category": "Australia",
+      "difficulty": "family",
+      "question": "Which Australian state has the largest population?",
+      "answers": [
+        "Queensland",
+        "New South Wales",
+        "Victoria",
+        "Western Australia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "New South Wales has Australia's largest state population.",
+      "tags": []
+    },
+    {
+      "id": "F002",
+      "category": "Science",
+      "difficulty": "family",
+      "question": "What is the chemical symbol for gold?",
+      "answers": [
+        "Ag",
+        "Au",
+        "Go",
+        "Gd"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Au comes from the Latin word aurum.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F003",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "Which country won the 2023 FIFA Women's World Cup?",
+      "answers": [
+        "Australia",
+        "England",
+        "Spain",
+        "Sweden"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Spain won the 2023 tournament.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F004",
+      "category": "Geography",
+      "difficulty": "family",
+      "question": "Which is the world's largest ocean?",
+      "answers": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Southern"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Pacific is the largest ocean.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F005",
+      "category": "History",
+      "difficulty": "family",
+      "question": "In which year did the Sydney Harbour Bridge open?",
+      "answers": [
+        "1922",
+        "1932",
+        "1942",
+        "1952"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The bridge opened in 1932.",
+      "tags": []
+    },
+    {
+      "id": "F006",
+      "category": "Animals",
+      "difficulty": "family",
+      "question": "What is the only mammal capable of true sustained flight?",
+      "answers": [
+        "Flying fox",
+        "Sugar glider",
+        "Bat",
+        "Flying squirrel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bats are the only mammals capable of powered flight.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F007",
+      "category": "Literature",
+      "difficulty": "family",
+      "question": "Who wrote the novel Matilda?",
+      "answers": [
+        "Dr Seuss",
+        "Roald Dahl",
+        "Enid Blyton",
+        "J.K. Rowling"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Roald Dahl wrote Matilda.",
+      "tags": []
+    },
+    {
+      "id": "F008",
+      "category": "Science",
+      "difficulty": "family",
+      "question": "What is the hardest naturally occurring mineral?",
+      "answers": [
+        "Quartz",
+        "Diamond",
+        "Granite",
+        "Topaz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diamond ranks highest on the Mohs hardness scale.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F009",
+      "category": "Australia",
+      "difficulty": "family",
+      "question": "What is the name of the large reef system off Queensland's coast?",
+      "answers": [
+        "Ningaloo Reef",
+        "Great Barrier Reef",
+        "Coral Sea Reef",
+        "Solitary Islands"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Great Barrier Reef lies off Queensland.",
+      "tags": []
+    },
+    {
+      "id": "F010",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "How many rings appear on the Olympic flag?",
+      "answers": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Olympic symbol has five interlocking rings.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F011",
+      "category": "Geography",
+      "difficulty": "family",
+      "question": "Which country is home to the ancient city of Petra?",
+      "answers": [
+        "Egypt",
+        "Jordan",
+        "Greece",
+        "Turkey"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Petra is in Jordan.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F012",
+      "category": "Music",
+      "difficulty": "family",
+      "question": "Which instrument has 88 keys on a standard modern version?",
+      "answers": [
+        "Violin",
+        "Piano",
+        "Flute",
+        "Harp"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A standard modern piano has 88 keys.",
+      "tags": []
+    },
+    {
+      "id": "F013",
+      "category": "Science",
+      "difficulty": "family",
+      "question": "What gas makes up most of Earth's atmosphere?",
+      "answers": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitrogen makes up about 78% of the atmosphere.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F014",
+      "category": "History",
+      "difficulty": "family",
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "answers": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Valentina Tereshkova",
+        "Harriet Quimby"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amelia Earhart completed the solo crossing in 1932.",
+      "tags": []
+    },
+    {
+      "id": "F015",
+      "category": "Food",
+      "difficulty": "family",
+      "question": "Which country is generally credited with inventing pizza in its modern form?",
+      "answers": [
+        "France",
+        "Italy",
+        "Spain",
+        "Greece"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modern pizza developed in Naples, Italy.",
+      "tags": []
+    },
+    {
+      "id": "F016",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "In tennis, what is the score called when both players have 40?",
+      "answers": [
+        "Match point",
+        "Deuce",
+        "Advantage",
+        "Love"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 40–40 score is called deuce.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F017",
+      "category": "Animals",
+      "difficulty": "family",
+      "question": "What is a group of lions commonly called?",
+      "answers": [
+        "Pack",
+        "Pride",
+        "Herd",
+        "Colony"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A group of lions is called a pride.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F018",
+      "category": "Geography",
+      "difficulty": "family",
+      "question": "Which river flows through Paris?",
+      "answers": [
+        "Rhine",
+        "Danube",
+        "Seine",
+        "Thames"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Seine runs through Paris.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F019",
+      "category": "Technology",
+      "difficulty": "family",
+      "question": "What does the 'www' in a website address stand for?",
+      "answers": [
+        "World Wide Web",
+        "Web World Window",
+        "Wide Web Wire",
+        "World Web Watch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "WWW stands for World Wide Web.",
+      "tags": []
+    },
+    {
+      "id": "F020",
+      "category": "Australia",
+      "difficulty": "family",
+      "question": "Uluru is located in which Australian territory?",
+      "answers": [
+        "ACT",
+        "Northern Territory",
+        "Jervis Bay Territory",
+        "Norfolk Island"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uluru is in the Northern Territory.",
+      "tags": []
+    },
+    {
+      "id": "C001",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "Which element has the atomic number 26?",
+      "answers": [
+        "Copper",
+        "Iron",
+        "Nickel",
+        "Zinc"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Iron has atomic number 26.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C002",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which country has the longest coastline in the world?",
+      "answers": [
+        "Russia",
+        "Canada",
+        "Indonesia",
+        "Australia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Canada has the world's longest coastline.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C003",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "The Treaty of Versailles was signed in which year?",
+      "answers": [
+        "1918",
+        "1919",
+        "1920",
+        "1921"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The treaty was signed in 1919.",
+      "tags": []
+    },
+    {
+      "id": "C004",
+      "category": "Literature",
+      "difficulty": "challenge",
+      "question": "Who wrote the novel The Left Hand of Darkness?",
+      "answers": [
+        "Ursula K. Le Guin",
+        "Octavia Butler",
+        "Margaret Atwood",
+        "Doris Lessing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ursula K. Le Guin published the novel in 1969.",
+      "tags": []
+    },
+    {
+      "id": "C005",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the SI unit of electrical resistance?",
+      "answers": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electrical resistance is measured in ohms.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C006",
+      "category": "Sport",
+      "difficulty": "challenge",
+      "question": "Which nation has won the most men's Rugby World Cups?",
+      "answers": [
+        "Australia",
+        "England",
+        "New Zealand",
+        "South Africa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "New Zealand has won the most titles in the record used for this question.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "C007",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which strait separates Tasmania from mainland Australia?",
+      "answers": [
+        "Bass Strait",
+        "Torres Strait",
+        "Cook Strait",
+        "Foveaux Strait"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bass Strait lies between Tasmania and Victoria.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C008",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "Which ancient civilisation developed the cuneiform writing system?",
+      "answers": [
+        "Maya",
+        "Sumerians",
+        "Romans",
+        "Phoenicians"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cuneiform writing emerged in ancient Sumer.",
+      "tags": []
+    },
+    {
+      "id": "C009",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the term for animals that are most active at dawn and dusk?",
+      "answers": [
+        "Nocturnal",
+        "Diurnal",
+        "Crepuscular",
+        "Arboreal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Crepuscular animals are active around dawn and dusk.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C010",
+      "category": "Art",
+      "difficulty": "challenge",
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "answers": [
+        "Raphael",
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Donatello"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Michelangelo painted the famous ceiling.",
+      "tags": []
+    },
+    {
+      "id": "C011",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "What is the capital of Mongolia?",
+      "answers": [
+        "Tashkent",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Dushanbe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ulaanbaatar is Mongolia's capital.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C012",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "Which particle carries a negative electric charge?",
+      "answers": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Photon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Electrons carry a negative charge.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C013",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "The Meiji Restoration began in which country?",
+      "answers": [
+        "China",
+        "Japan",
+        "Korea",
+        "Thailand"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Meiji Restoration transformed Japan from 1868.",
+      "tags": []
+    },
+    {
+      "id": "C014",
+      "category": "Sport",
+      "difficulty": "challenge",
+      "question": "In snooker, how many points is the black ball worth?",
+      "answers": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The black ball is worth seven points.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "C015",
+      "category": "Literature",
+      "difficulty": "challenge",
+      "question": "Who created the fictional detective Hercule Poirot?",
+      "answers": [
+        "Arthur Conan Doyle",
+        "Agatha Christie",
+        "Dorothy L. Sayers",
+        "P.D. James"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Agatha Christie created Poirot.",
+      "tags": []
+    },
+    {
+      "id": "C016",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the name of the boundary around a black hole beyond which light cannot escape?",
+      "answers": [
+        "Singularity",
+        "Event horizon",
+        "Accretion disc",
+        "Photon belt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The event horizon marks the point of no return.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C017",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which African country was formerly known as Abyssinia?",
+      "answers": [
+        "Ethiopia",
+        "Eritrea",
+        "Somalia",
+        "Sudan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Abyssinia is the historical name for Ethiopia.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C018",
+      "category": "Music",
+      "difficulty": "challenge",
+      "question": "Which composer wrote The Four Seasons?",
+      "answers": [
+        "Bach",
+        "Vivaldi",
+        "Handel",
+        "Haydn"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Antonio Vivaldi composed The Four Seasons.",
+      "tags": []
+    },
+    {
+      "id": "C019",
+      "category": "Maths",
+      "difficulty": "challenge",
+      "question": "What is the sum of the interior angles of a hexagon?",
+      "answers": [
+        "540 degrees",
+        "600 degrees",
+        "720 degrees",
+        "900 degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A hexagon's interior angles sum to 720 degrees.",
+      "tags": []
+    },
+    {
+      "id": "C020",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "Which ship carried Charles Darwin on his famous voyage beginning in 1831?",
+      "answers": [
+        "Endeavour",
+        "Beagle",
+        "Victory",
+        "Resolution"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Darwin travelled aboard HMS Beagle.",
+      "tags": []
+    },
+    {
+      "id": "J021",
+      "category": "Sport",
+      "difficulty": "junior",
+      "question": "In basketball, how many points is a free throw worth?",
+      "answers": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A successful free throw is worth one point.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J022",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "Which Australian animal has a bill like a duck and lays eggs?",
+      "answers": [
+        "Wombat",
+        "Platypus",
+        "Echidna",
+        "Possum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The platypus is an egg-laying mammal.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J023",
+      "category": "Science",
+      "difficulty": "junior",
+      "question": "What force pulls objects towards Earth?",
+      "answers": [
+        "Magnetism",
+        "Gravity",
+        "Friction",
+        "Electricity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gravity pulls objects towards Earth's centre.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J024",
+      "category": "Australia",
+      "difficulty": "junior",
+      "question": "What is the name of Australia's national anthem?",
+      "answers": [
+        "Waltzing Matilda",
+        "Advance Australia Fair",
+        "I Am Australian",
+        "Land Down Under"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Advance Australia Fair is Australia's national anthem.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J025",
+      "category": "Geography",
+      "difficulty": "junior",
+      "question": "Which is the smallest Australian state by land area?",
+      "answers": [
+        "Victoria",
+        "Tasmania",
+        "South Australia",
+        "Queensland"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Victoria is the smallest state by area.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J026",
+      "category": "Maths",
+      "difficulty": "junior",
+      "question": "How many minutes are there in two hours?",
+      "answers": [
+        "60",
+        "90",
+        "120",
+        "180"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Two hours contain 120 minutes.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J027",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "What is the name for a group of fish swimming together?",
+      "answers": [
+        "Flock",
+        "School",
+        "Pride",
+        "Pack"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A group of fish is called a school or shoal.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J028",
+      "category": "Science",
+      "difficulty": "junior",
+      "question": "Which part of the body pumps blood around the body?",
+      "answers": [
+        "Lungs",
+        "Brain",
+        "Heart",
+        "Stomach"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The heart pumps blood around the body.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J029",
+      "category": "Sport",
+      "difficulty": "junior",
+      "question": "In soccer, what is the only player allowed to handle the ball during normal play?",
+      "answers": [
+        "Striker",
+        "Goalkeeper",
+        "Defender",
+        "Captain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The goalkeeper may handle the ball within their own penalty area.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "J030",
+      "category": "Nature",
+      "difficulty": "junior",
+      "question": "What is the name of molten rock when it reaches Earth's surface?",
+      "answers": [
+        "Lava",
+        "Magma",
+        "Granite",
+        "Ash"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Molten rock at the surface is called lava.",
+      "tags": [
+        "junior"
+      ]
+    },
+    {
+      "id": "F021",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "How many players are on court for one netball team?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A netball team has seven players on court.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F022",
+      "category": "Australia",
+      "difficulty": "family",
+      "question": "Which Australian city hosted the 2000 Summer Olympics?",
+      "answers": [
+        "Melbourne",
+        "Sydney",
+        "Brisbane",
+        "Perth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sydney hosted the 2000 Summer Olympics.",
+      "tags": []
+    },
+    {
+      "id": "F023",
+      "category": "Science",
+      "difficulty": "family",
+      "question": "What is the process by which a liquid changes into a gas called?",
+      "answers": [
+        "Condensation",
+        "Evaporation",
+        "Freezing",
+        "Sublimation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Evaporation changes a liquid into a gas.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F024",
+      "category": "Geography",
+      "difficulty": "family",
+      "question": "Which desert covers much of the interior of Botswana and parts of Namibia and South Africa?",
+      "answers": [
+        "Sahara",
+        "Gobi",
+        "Kalahari",
+        "Atacama"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Kalahari covers parts of southern Africa.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F025",
+      "category": "History",
+      "difficulty": "family",
+      "question": "Who was the first person to walk on the Moon?",
+      "answers": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Neil Armstrong stepped onto the Moon in July 1969.",
+      "tags": []
+    },
+    {
+      "id": "F026",
+      "category": "Animals",
+      "difficulty": "family",
+      "question": "What is the largest living species of penguin?",
+      "answers": [
+        "King penguin",
+        "Emperor penguin",
+        "Gentoo penguin",
+        "Adélie penguin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The emperor penguin is the largest living penguin.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "F027",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "In golf, what is one stroke under par on a hole called?",
+      "answers": [
+        "Eagle",
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One under par is a birdie.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F028",
+      "category": "Technology",
+      "difficulty": "family",
+      "question": "What does CPU stand for?",
+      "answers": [
+        "Central Processing Unit",
+        "Computer Power Utility",
+        "Core Program Upload",
+        "Central Peripheral User"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CPU stands for Central Processing Unit.",
+      "tags": []
+    },
+    {
+      "id": "F029",
+      "category": "Literature",
+      "difficulty": "family",
+      "question": "Which fictional bear is associated with the Hundred Acre Wood?",
+      "answers": [
+        "Paddington",
+        "Winnie-the-Pooh",
+        "Rupert",
+        "Baloo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Winnie-the-Pooh lives in the Hundred Acre Wood.",
+      "tags": []
+    },
+    {
+      "id": "F030",
+      "category": "Science",
+      "difficulty": "family",
+      "question": "Which blood cells help the body fight infection?",
+      "answers": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma cells only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "White blood cells are a key part of the immune system.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C021",
+      "category": "Sport",
+      "difficulty": "challenge",
+      "question": "In baseball, how many strikes normally result in a batter being out?",
+      "answers": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A batter is normally out after three strikes.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "C022",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the approximate speed of light in a vacuum?",
+      "answers": [
+        "30,000 km/s",
+        "150,000 km/s",
+        "300,000 km/s",
+        "1,000,000 km/s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Light travels at about 300,000 kilometres per second.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C023",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which mountain range traditionally forms part of the boundary between Europe and Asia?",
+      "answers": [
+        "Alps",
+        "Andes",
+        "Ural Mountains",
+        "Atlas Mountains"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Ural Mountains are a conventional boundary between Europe and Asia.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C024",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "Which English king sealed the Magna Carta in 1215?",
+      "answers": [
+        "Henry II",
+        "Richard I",
+        "John",
+        "Edward I"
+      ],
+      "correctAnswer": 2,
+      "explanation": "King John sealed Magna Carta in 1215.",
+      "tags": []
+    },
+    {
+      "id": "C025",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the name of the branch of biology that studies fungi?",
+      "answers": [
+        "Botany",
+        "Mycology",
+        "Ecology",
+        "Zoology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mycology is the study of fungi.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C026",
+      "category": "Sport",
+      "difficulty": "challenge",
+      "question": "In association football, what is the maximum number of substitutions permitted in many current top-level competitions?",
+      "answers": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Many competitions currently allow up to five substitutions; competition rules can vary.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "C027",
+      "category": "Literature",
+      "difficulty": "challenge",
+      "question": "Who wrote One Hundred Years of Solitude?",
+      "answers": [
+        "Jorge Luis Borges",
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa",
+        "Isabel Allende"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gabriel García Márquez wrote the novel.",
+      "tags": []
+    },
+    {
+      "id": "C028",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which is the only country that borders both the Caspian Sea and the Persian Gulf?",
+      "answers": [
+        "Iraq",
+        "Iran",
+        "Azerbaijan",
+        "Turkmenistan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Iran has coastlines on both bodies of water.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C029",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the name of the scale used to measure the acidity or alkalinity of a solution?",
+      "answers": [
+        "Richter scale",
+        "Beaufort scale",
+        "pH scale",
+        "Kelvin scale"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The pH scale measures acidity and alkalinity.",
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "id": "C030",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "Which civilisation built the city of Machu Picchu?",
+      "answers": [
+        "Aztec",
+        "Maya",
+        "Inca",
+        "Olmec"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Machu Picchu was built by the Inca civilisation.",
+      "tags": []
+    },
+    {
+      "id": "J031",
+      "category": "Australia",
+      "difficulty": "junior",
+      "question": "What is the capital city of Queensland?",
+      "answers": [
+        "Brisbane",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Brisbane is the capital city of Queensland.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    },
+    {
+      "id": "J032",
+      "category": "Australia",
+      "difficulty": "junior",
+      "question": "What is the name of the famous big red rock in the Northern Territory?",
+      "answers": [
+        "Mount Kosciuszko",
+        "Uluru",
+        "Kata Tjuta",
+        "The Pinnacles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uluru is a large sandstone formation in the Northern Territory.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    },
+    {
+      "id": "J033",
+      "category": "Sport",
+      "difficulty": "junior",
+      "question": "In cricket, how many runs is a boundary worth when the ball reaches the rope after bouncing?",
+      "answers": [
+        "Two",
+        "Four",
+        "Six",
+        "One"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A boundary after the ball bounces is worth four runs.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "J034",
+      "category": "Animals",
+      "difficulty": "junior",
+      "question": "What is a group of fish swimming together called?",
+      "answers": [
+        "A flock",
+        "A school",
+        "A pack",
+        "A herd"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A group of fish is commonly called a school.",
+      "tags": [
+        "animals"
+      ]
+    },
+    {
+      "id": "J035",
+      "category": "Science",
+      "difficulty": "junior",
+      "question": "Which part of your body helps you smell?",
+      "answers": [
+        "Ears",
+        "Tongue",
+        "Nose",
+        "Eyes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Your nose detects smells.",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "J036",
+      "category": "Geography",
+      "difficulty": "junior",
+      "question": "Which ocean is east of Queensland?",
+      "answers": [
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Queensland's east coast faces the Coral Sea, part of the Pacific Ocean.",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "J037",
+      "category": "Food",
+      "difficulty": "junior",
+      "question": "Which of these is a dairy food?",
+      "answers": [
+        "Cheese",
+        "Rice",
+        "Carrot",
+        "Apple"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cheese is made from milk.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "J038",
+      "category": "Space",
+      "difficulty": "junior",
+      "question": "Which planet is known as the Red Planet?",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Saturn",
+        "Neptune"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Iron-rich dust gives Mars its reddish appearance.",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "id": "J039",
+      "category": "Nature",
+      "difficulty": "junior",
+      "question": "What do we call water falling from clouds?",
+      "answers": [
+        "Fog",
+        "Dew",
+        "Rain",
+        "Steam"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rain is precipitation falling from clouds.",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "J040",
+      "category": "Australia",
+      "difficulty": "junior",
+      "question": "What is the name of Australia's national capital city?",
+      "answers": [
+        "Sydney",
+        "Canberra",
+        "Perth",
+        "Adelaide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Canberra is Australia's national capital.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    },
+    {
+      "id": "F031",
+      "category": "Australia",
+      "difficulty": "family",
+      "question": "Which Australian state is known as the Island State?",
+      "answers": [
+        "Queensland",
+        "Tasmania",
+        "Victoria",
+        "South Australia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tasmania is Australia's island state.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    },
+    {
+      "id": "F032",
+      "category": "Australia",
+      "difficulty": "family",
+      "question": "What is the name of the strait separating Tasmania from mainland Australia?",
+      "answers": [
+        "Bass Strait",
+        "Torres Strait",
+        "Cook Strait",
+        "Dampier Strait"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bass Strait lies between Victoria and Tasmania.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    },
+    {
+      "id": "F033",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "How many points is a behind worth in Australian rules football?",
+      "answers": [
+        "One",
+        "Two",
+        "Four",
+        "Six"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A behind is worth one point.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F034",
+      "category": "History",
+      "difficulty": "family",
+      "question": "In what year did the first fleet arrive at Sydney Cove?",
+      "answers": [
+        "1770",
+        "1788",
+        "1804",
+        "1851"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The First Fleet arrived in January 1788.",
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "F035",
+      "category": "Geography",
+      "difficulty": "family",
+      "question": "Which Australian state has the city of Darwin as its capital?",
+      "answers": [
+        "Western Australia",
+        "Queensland",
+        "Northern Territory",
+        "South Australia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Darwin is the capital of the Northern Territory.",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "F036",
+      "category": "Science",
+      "difficulty": "family",
+      "question": "Which layer of Earth lies directly beneath the crust?",
+      "answers": [
+        "The inner core",
+        "The mantle",
+        "The outer core",
+        "The atmosphere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The mantle is the thick layer of hot rock directly beneath Earth’s crust.",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "F037",
+      "category": "Literature",
+      "difficulty": "family",
+      "question": "Who created the character Bluey in the Australian animated series?",
+      "answers": [
+        "Joe Brumm",
+        "Andy Griffiths",
+        "Mem Fox",
+        "Graeme Base"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bluey was created by Australian animator Joe Brumm.",
+      "tags": [
+        "literature"
+      ]
+    },
+    {
+      "id": "F038",
+      "category": "Nature",
+      "difficulty": "family",
+      "question": "What is the largest living structure on Earth, located off Queensland?",
+      "answers": [
+        "Great Barrier Reef",
+        "Daintree Rainforest",
+        "Ningaloo Reef",
+        "K'gari"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Great Barrier Reef is the world's largest coral reef system.",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "F039",
+      "category": "Sport",
+      "difficulty": "family",
+      "question": "Which Australian tennis player won the 2022 Wimbledon men's singles title?",
+      "answers": [
+        "Lleyton Hewitt",
+        "Nick Kyrgios",
+        "Pat Rafter",
+        "Alex de Minaur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nick Kyrgios reached the 2022 Wimbledon final.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "F040",
+      "category": "Geography",
+      "difficulty": "family",
+      "question": "What is the capital of New Zealand?",
+      "answers": [
+        "Auckland",
+        "Christchurch",
+        "Wellington",
+        "Queenstown"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wellington is New Zealand's capital.",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "C031",
+      "category": "Australia",
+      "difficulty": "challenge",
+      "question": "Which year did Australia adopt decimal currency?",
+      "answers": [
+        "1956",
+        "1966",
+        "1972",
+        "1980"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Australia changed to decimal currency on 14 February 1966.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    },
+    {
+      "id": "C032",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "Which Australian prime minister was in office when the Snowy Mountains Scheme was officially opened in 1974?",
+      "answers": [
+        "Gough Whitlam",
+        "Malcolm Fraser",
+        "John Gorton",
+        "Harold Holt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gough Whitlam was prime minister at the 1974 official opening.",
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "C033",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which Australian state contains the MacDonnell Ranges?",
+      "answers": [
+        "Queensland",
+        "South Australia",
+        "Northern Territory",
+        "Western Australia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The MacDonnell Ranges are in the Northern Territory.",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "C034",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "What is the SI unit of frequency?",
+      "answers": [
+        "Newton",
+        "Joule",
+        "Hertz",
+        "Pascal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Frequency is measured in hertz.",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "C035",
+      "category": "Literature",
+      "difficulty": "challenge",
+      "question": "Who wrote the Australian novel The Chant of Jimmie Blacksmith?",
+      "answers": [
+        "Thomas Keneally",
+        "David Malouf",
+        "Patrick White",
+        "Xavier Herbert"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Xavier Herbert wrote the novel, published in 1972.",
+      "tags": [
+        "literature"
+      ]
+    },
+    {
+      "id": "C036",
+      "category": "Sport",
+      "difficulty": "challenge",
+      "question": "Which city hosted the 1956 Summer Olympics?",
+      "answers": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Perth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Melbourne hosted the 1956 Summer Olympics.",
+      "tags": [
+        "sport"
+      ]
+    },
+    {
+      "id": "C037",
+      "category": "History",
+      "difficulty": "challenge",
+      "question": "The Eureka Stockade took place in which Australian colony?",
+      "answers": [
+        "New South Wales",
+        "Queensland",
+        "Victoria",
+        "South Australia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Eureka Stockade occurred at Ballarat in the colony of Victoria.",
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "C038",
+      "category": "Geography",
+      "difficulty": "challenge",
+      "question": "Which river forms much of the border between New South Wales and Victoria?",
+      "answers": [
+        "Darling River",
+        "Murray River",
+        "Murrumbidgee River",
+        "Yarra River"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Murray River forms much of the NSW–Victoria border.",
+      "tags": [
+        "geography"
+      ]
+    },
+    {
+      "id": "C039",
+      "category": "Science",
+      "difficulty": "challenge",
+      "question": "Which gas is the most abundant in Earth's atmosphere?",
+      "answers": [
+        "Oxygen",
+        "Argon",
+        "Nitrogen",
+        "Carbon dioxide"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nitrogen makes up about 78 per cent of dry air.",
+      "tags": [
+        "science"
+      ]
+    },
+    {
+      "id": "C040",
+      "category": "Australia",
+      "difficulty": "challenge",
+      "question": "Who was the first Australian woman to win an Olympic gold medal?",
+      "answers": [
+        "Shirley Strickland",
+        "Dawn Fraser",
+        "Betty Cuthbert",
+        "Marlene Mathews"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Betty Cuthbert won 100 metres gold at the 1956 Melbourne Olympics.",
+      "tags": [
+        "australia",
+        "australia"
+      ]
+    }
+  ]
+}
