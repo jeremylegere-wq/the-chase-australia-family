@@ -2,6 +2,9 @@
 
 An unofficial, offline-first family quiz game for two contestants, inspired by the broad round structure of televised chase-style quiz shows. Play cooperatively or competitively in a browser.
 
+
+![The Chase Australia: Family Edition start screen](docs/images/home.png)
+
 > **Unofficial fan project.** This project is not affiliated with, endorsed by, or connected to the television programme, broadcaster, production company or presenters. It uses original code and artwork and does not include official programme assets.
 
 ## Features
